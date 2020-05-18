@@ -9,6 +9,9 @@ def linear_search(arr, target):
 def binary_search(arr, target):
 
     # Your code here
+    
+    left = 0
+    right = len(arr) - 1
 
 
     return -1  # not found
