@@ -2,7 +2,8 @@ def linear_search(arr, target):
     # Your code here
     
     #loop through all indexs of array
-    for i in range (0,target):
+    for i in range (len(arr)):
+    # for i in range (0,target):
         #if index == target
         if (arr[i] == target):
             #return index
