@@ -15,6 +15,8 @@ def selection_sort(arr):
         # TO-DO: swap
         # Your code here
 
+        arr[i], arr[smallest_index] = arr[smallest_index], ari[i]
+
     return arr
 
 
